@@ -18,9 +18,9 @@ public interface FlightSearchLeg {
 
 	String getDestination();
 
-	@ApiModelProperty(required = true, value = "The date and time of departure ",dataType="date-time")  
+	@ApiModelProperty(required = true, value = "The date and time of departure ",dataType="dateTime")  
 	LocalDateTime getDepartureTime();
-	@ApiModelProperty(required = true, value = "The date and time of arrival ",dataType="date-time")  
+	@ApiModelProperty(required = true, value = "The date and time of arrival ",dataType="dateTime")  
 	LocalDateTime getArrivalTime();
 
 	int getDuration();
